@@ -79,6 +79,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown {
     position: relative;
+    z-index: 999;
     display: inline-block;
 }
 
@@ -88,6 +89,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     background-color: #1b263b;
     min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+   
    
 }
 
@@ -99,6 +101,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .dropdown-content a:hover {
+  
     background-color: #415a77;
 }
 
